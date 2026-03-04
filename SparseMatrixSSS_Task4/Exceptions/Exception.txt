@@ -1,0 +1,9 @@
+Краткое описание иерархии исключений
+
+Exception (базовый класс .NET)
+    │
+    └── MatrixException (базовое исключение матрицы)
+            │
+            ├── InvalidMatrixSizeException (неверный размер)
+            │
+            └── MatrixIndexOutOfRangeException (выход за границы)
